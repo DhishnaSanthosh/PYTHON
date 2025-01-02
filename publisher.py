@@ -21,5 +21,5 @@ class Python(Book):
         super().display()
         print("Price:",self.price)
         print("No Of Pages:",self.noofpages)
-p=Python("MATHRUBHOOMI","NALUKETTU","M T",525,250)
+p=Python("DC BOOKS ","SOMEONE LIKES YOU","DURJOY",525,250)
 p.display()
