@@ -16,7 +16,7 @@ class Python(Book):
     def __init__(self,name,title,author,price,no_of_pages):
         super().__init__(name,title,author)
         self.price=price
-        self.noofpages=noofpages
+        self.no_of_pages=no_of_pages
     def display(self):
         super().display()
         print("Price:",self.price)
